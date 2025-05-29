@@ -1,6 +1,9 @@
 # Jantar dos Filósofos
 
-Este é um projeto que implementa o clássico problema do Jantar dos Filósofos usando C# e Windows Forms. O projeto simula cinco filósofos (Alan Turing, Ada Lovelace, Filosofo 2, Djikstra e Filosofo 3) que alternam entre os estados de pensando, faminto e comendo.
+Este é um projeto que implementa o clássico problema do Jantar dos Filósofos usando C# e Windows Forms. O projeto simula cinco filósofos (Alan Turing, Ada Lovelace, Bertrand Russell, Edsger Dijkstra e Simone de Beauvoir) que alternam entre os estados de pensando, faminto e comendo.
+
+> **Importante**: Certifique-se de ter o .NET Framework 4.7.2 instalado no seu sistema Windows.
+
 
 ## 🎯 Funcionalidades
 
@@ -24,7 +27,7 @@ Este é um projeto que implementa o clássico problema do Jantar dos Filósofos 
 
 - Windows 10 ou superior
 - .NET Framework 4.7.2 ou superior
-- Visual Studio 2019 ou superior (para desenvolvimento)
+- VsCode ou Visual Studio (para desenvolvimento)
 
 ## �� Como Executar
 
@@ -32,12 +35,15 @@ Este é um projeto que implementa o clássico problema do Jantar dos Filósofos 
 
 Para executar o projeto diretamente, use os seguintes comandos:
 
+> **Atenção:** Projetos Windows Forms com .NET Framework são recomendados para uso no Visual Studio. O suporte no VSCode é limitado e pode não permitir a execução direta da interface gráfica.
+
+
 ```bash
 # Clonar o repositório
-git clone https://github.com/seu-usuario/Jantar-dos-Filosofos.git
+git clone https://github.com/carlos-augusto-carneiro/JantarDosFilosofos.git
 
 # Entrar na pasta do projeto
-cd Jantar-dos-Filosofos
+cd JantarDosFilosofos
 
 # Compilar o projeto
 dotnet build
@@ -46,63 +52,10 @@ dotnet build
 dotnet run
 ```
 
-> **Importante**: Certifique-se de ter o .NET Framework 4.7.2 instalado no seu sistema Windows.
-
-### Usando Visual Studio
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/Jantar-dos-Filosofos.git
-```
-
-2. Abra o arquivo `Jantar dos Filosofos.sln` no Visual Studio
-
-3. Compile o projeto (F6 ou Build > Build Solution)
-
-4. Execute o projeto (F5 ou Debug > Start Debugging)
-
-### Usando VSCode
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/Jantar-dos-Filosofos.git
-```
-
-2. Instale as extensões necessárias no VSCode:
-   - C# (Microsoft)
-   - C# Extensions
-   - .NET Core Tools
-
-3. Abra a pasta do projeto no VSCode:
-```bash
-code Jantar-dos-Filosofos
-```
-
-4. Instale o .NET SDK se ainda não tiver:
-   - Baixe do site oficial: https://dotnet.microsoft.com/download
-
-5. Restaure as dependências:
-```bash
-dotnet restore
-```
-
-6. Compile o projeto:
-```bash
-dotnet build
-```
-
-7. Execute o projeto:
-```bash
-dotnet run
-```
-
-> **Nota**: Como este é um projeto Windows Forms, você precisará ter o .NET Framework instalado no Windows para executá-lo, mesmo usando o VSCode.
-
 ## 🎮 Como Usar
 
 1. Ao iniciar o programa, você verá 5 botões representando os filósofos
-2. Clique em cada botão para iniciar a thread do respectivo filósofo
-3. Observe as mudanças de estado e cores:
+2. Observe as mudanças de estado e cores:
    - Amarelo: Filósofo está pensando
    - Vermelho: Filósofo está faminto
    - Verde: Filósofo está comendo
@@ -120,23 +73,7 @@ O projeto implementa uma solução para o problema do deadlock através da segui
 - Uso de locks para garantir exclusão mútua
 - Sistema de prioridade para evitar starvation
 
-## 🤝 Contribuindo
-
-1. Faça um Fork do projeto
-2. Crie uma Branch para sua Feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a Branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👥 Autores
-
-- Seu Nome - Desenvolvimento inicial
-
 ## 🙏 Agradecimentos
 
 - Inspirado no clássico problema do Jantar dos Filósofos de Edsger Dijkstra
-- Imagens dos filósofos retiradas de fontes públicas 
+- Imagens dos filósofos foram geradas por uma IA Generativa
